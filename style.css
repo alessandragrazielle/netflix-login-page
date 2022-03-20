@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #181818;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;  /*diminuiu a imagem*/
+}
+
+input, button{
+    height: 65px;
+    border-radius: 5px;
+    padding: 0 20px; /*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    font-size: 1.2rem;
+    border: 0;
+}
+
+input{
+    background-color: #2E2E2E;
+    margin: 1.5px;
+}
+
+button{
+    margin: 20px 0; /*coloca o 0 para ficar da mesma largura do input*/
+    background: none;
+    border: 2px solid #2e2e2e;
+    color: #aaa;
+    cursor: pointer;
+}
+
+a{
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forgot-password{
+    color: #aaa;
+    font-weight: normal;
+}
+
+img{
+    width: 100%;
+}
